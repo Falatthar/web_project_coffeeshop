@@ -7,7 +7,6 @@
     <meta name="author" content="Fernando Rosario" />
     <meta name="keywords" content="cafetería,café,pasteles,coffee shop" />
     <title>Cafetería</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -186,8 +185,40 @@
           </form>
         </section>
       </main>
-
-      <footer class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo de cafetería"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="logo facebook"
+                />
+                <a class="footer__social-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="logo instagram"
+                />
+                <a class="footer__social-link" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="footer__copyright">© 2025 Fernando Rosario</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
